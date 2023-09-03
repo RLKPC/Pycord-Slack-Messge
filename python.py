@@ -33,7 +33,7 @@ slack_token = "すらっくとーくん"
                  "TestChannel5"
                  ]
 )
-async def vtacheck(ctx,sch,index):
+async def slackcheck(ctx,sch,index):
 
     channel_ids = {
                    "TestChannel1": "ちゃんねるあいでぃー",
