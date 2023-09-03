@@ -17,7 +17,6 @@ slack_url = "https://slack.com/api/conversations.history"
 slack_token = "すらっくとーくん"
 
 
-#VTA-Check
 @bot.slash_command(description="Slachのメッセージを出力します。")
 @option("index",
         description="検索したいメッセージの数字を入力してください。",
